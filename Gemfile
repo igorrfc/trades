@@ -2,8 +2,11 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '3.2.13'
-# gem 'sqlite3'
-gem 'pg'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3'
 gem 'thin'
 
 # Gems used only for assets and not required
@@ -24,6 +27,9 @@ gem 'jquery-rails'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
+
+# Use unicorn as the app server
+# gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
