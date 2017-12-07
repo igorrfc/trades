@@ -7,10 +7,12 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3'
-gem 'pg'
+gem 'pg', '0.20'
 gem 'thin'
 
 gem 'rack-cors', require: 'rack/cors'
+
+gem 'test-unit'
 
 # Gems used only for assets and not required
 # in production environments by default.
